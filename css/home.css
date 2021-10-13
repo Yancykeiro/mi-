@@ -1,0 +1,261 @@
+/* 首页样式 */
+    /* 幻灯轮播图样式 */
+    .swiper .swiper-slide{
+        position: relative;
+        z-index: -1;
+
+
+    }
+    .swiper .swiper-slide img{
+        width: 1226px;
+        height: 460px;
+    }
+
+    .swiper .swiper-menu {
+        width: 234px;
+        height: 460px;
+        background-color: #69656599;
+        position: absolute;
+    }
+    .swiper .swiper-menu ul{
+        padding: 20px 0;
+    }
+    .swiper .swiper-menu a{
+        padding-left: 30px;
+        font-size: 14px;
+        color: #ffffff;
+        text-decoration: none;
+        line-height: 42px;
+    }
+    .swiper .swiper-menu .icon{
+        float: right;
+        color: #fff;
+        font-size: 24px;
+        line-height: 42px;
+        margin-right: 20px;
+    }
+
+    .swiper-button-prev{
+        position:absolute;
+        width: 41px;
+        height: 69px;
+        background-image: url(../images/icon-slides.png);
+        background-position: 82px;
+        top: 195px;
+        left: 234px;
+    }
+    .swiper-button-prev:hover{
+        background-position: 0;
+    }
+    .swiper-button-next{
+        position:absolute;
+        width: 41px;
+        height: 69px;
+        background-image: url(../images/icon-slides.png);
+        background-position: 41px;
+        top: 195px;
+        right: 0;
+    }
+    .swiper-button-next:hover{
+        background-position: -41px;
+    }
+    /* 频道列表 */
+    .sub-row{
+        margin: 14px 0 0 -14px;
+    }
+    .sub-row .span4 ul{
+        width: 234px;
+        height: 170px;
+        background-color: #5f5750;
+        margin-left: 14px;
+        float: left;
+    }
+    .sub-row .span4 li{
+        position: relative;
+        width: 76px;
+        height: 64px;
+        float: left;
+        text-align: center;
+        padding-top: 18px;
+    }
+    .sub-row .span4 a{
+        text-decoration: none;
+        color: #ddd;
+        font-size: 12px;
+    }
+    .sub-row .span4 .icon{
+        font-size: 20px;
+    }
+    .sub-row .span4 a:hover{
+        color: #fff;
+    }
+    .sub-row .span4 .vertical-bar{
+        content: "";
+        position: absolute;
+        top: 11px;
+        right: 0;
+        height: 60px;
+        width: 1px;
+        background-color: rgba(114, 114, 114, 0.356);
+    }
+
+    .sub-row .span4 .horizontal-bar{
+        content: "";
+        position: absolute;
+        left: 11px;
+        bottom: 0;
+        height: 1px;
+        width: 54px;
+        background-color:  rgba(114, 114, 114, 0.356);
+    }
+
+    /* 频道右侧广告 */
+    .sub-row .span16{
+        display: flex;
+       justify-content:space-between ;
+       
+    }
+    .sub-row .span16 img{
+        height: 170px;
+        margin-left: 14px;
+    }
+    /* 主页部分 */
+    .home-page{
+        background-color: #f5f5f5;
+        width: 100%;
+        height: auto;
+        padding: 4px 0 12px;
+    }
+    /* 标题行 */
+    .box-hd{
+        height: 58px;
+        line-height: 58px;
+    }
+    .box-hd h2{
+        color: #333;
+        font-size: 22px;
+        font-weight: 200;
+        float: left;
+    }
+    .box-hd .more{
+        float: right;
+        height: 58px;
+        position: relative;
+    }
+    .box-hd a{
+        margin-right: 26px;
+        text-decoration: none;
+        color: #424242;
+        font-size: 16px;
+    }
+    .box-hd .icon-more{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background-image: url(../images/big_play_btn.png);
+        background-size: cover;
+        bottom: 19px;
+        right: 0;
+    }
+    .box-hd .more:hover a{
+        color: #ff6700;
+    }
+    .box-hd .more:hover .icon-more{
+        background-image: url(../images/big_play_btn_hover.png);
+    }
+    /* 左侧 */
+    .home-page .box-bd .row .span4{
+        float: left;
+    }
+
+    /* 右侧 */
+
+    .home-page .box-bd .row .span16 img{
+        width: 160px;
+        height: 160px;
+    }
+   
+    .home-page .box-bd .row .span16 a{
+        float: left;
+        display: block;
+        width: 234px;
+        height: 260px;
+        background-color: #fff;
+        padding: 20px 0;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 14px;
+        margin-bottom: 14px;
+    }
+    h3.title{
+        height: 21px;
+        color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 10px 2px;
+        text-align: center;
+    }
+    p.desc{
+        height: 18px;
+        color: #b0b0b0;
+        font-size: 12px;
+        margin: 0 10px 10px 10px;
+        text-align: center;
+    }
+    .home-page .box-bd .row .span16 .price span{
+        color: #ff6700;
+        font-size: 14px;
+
+    }
+    .home-page .box-bd .row .span16 .price del{
+        color: #b0b0b0;
+        font-size: 14px;
+    }
+    .home-banner-box img{ 
+        margin: 22px 0;
+    }
+
+    /* 视频栏 */
+    .home-video-box .box-bd{
+        margin-left: -10px;
+    }
+    .home-video-box .box-bd .video-item{
+        display: inline-block;
+        position: relative;
+        width: 296px;
+        height: 285px;
+        background-color: #fff;
+        margin-bottom: 14px;
+        margin-left: 9px;
+        overflow: hidden;
+    }
+    .home-video-box .video-item img{
+        height: 180px;
+        width: 296px;
+    }
+    .home-video-box .video-item span{
+        position: absolute;
+        left: 20px;
+        bottom: 115px;
+        display: block;
+        width: 32px;
+        height: 20px;
+        background-image: url(../images/btns.png) ;
+        background-size: 45%;
+        background-repeat: no-repeat;
+        background-position-x: 10px;
+        background-position-y: 3px;
+        border: 2px solid #fff ;
+        border-radius: 12px;
+    }
+    .home-video-box .video-item span:hover{
+        background-color: #ff6700;
+        border: 2px solid #ff6700 ;
+    }
+
+    .home-video-box .video-item h3{
+        width: 296px;
+        margin: 25px 0 6px;
+    }
+
+    

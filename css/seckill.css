@@ -1,0 +1,124 @@
+
+/* 主体 */
+.seckill{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+/* 导航条 */
+.seckill-head .banner{
+    height: 68px;
+}
+.seckill-head .banner li{
+    float: left;
+    width: 245.19px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    color: #fff;
+    background-color: #414141;
+}
+.seckill-head .banner .current-banner{
+    background-color: #f1393a;
+}
+.seckill-head .banner em{
+    margin-left: 30px;
+    font-size: 18px;
+    font-style: normal;
+}
+.seckill-head .banner span{
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+/* 秒杀内容 */
+.seckill-con{
+    margin-left: -13px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.seckill-con ul{
+    font-size: 0;
+}
+.seckill-con li{
+    width: 400px;
+    height: 190px;
+    background-color: #fff;
+    margin: 0 0 13px 13px ;
+    z-index: 222;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.seckill-con img{
+    width: 190px;
+    height: 190px;
+    float: left;
+    overflow: hidden;
+}
+/* 产品文字介绍 */
+.seckill-con .pro-con {
+    margin-left: 210px;
+    width: 180px;
+    padding-top: 30px;
+    
+}
+.seckill-con .pro-con span{
+    display: block;
+}
+.seckill-con .pro-con .name{
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 16px;
+    padding-top: 30px;
+}
+.seckill-con .pro-con .desc{
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+    margin-top: 7px;
+}
+
+.seckill-con .pro-con .price{
+    font-size: 16px;
+    color: #f13936;
+    line-height: 1;
+    margin-top: 14px;
+}
+.seckill-con .pro-con .price del{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.item-seckill{
+    position: relative;
+}
+.item-box a{
+    width: 118px;
+    height: 28px;
+    font-size: 14px;
+    position: absolute;
+    right: 70px;
+    bottom: 25px;
+    color: #fff;
+    background-color: #f1393a;
+    border: 1px solid #f1393a;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    z-index: 5;
+}
+/* 活动规则 */
+.container-notic{
+    color: #00000045;
+    font-size: 12px;
+    padding-bottom: 35px;
+    margin-top: 100px;
+}

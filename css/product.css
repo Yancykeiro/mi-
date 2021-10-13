@@ -1,0 +1,362 @@
+/* 产品详情页主体样式 */
+    /* 导航条 */
+.xm-product-box .nav-bar{
+    width: 100%;
+    height: 60px;
+    border-top: 1px  solid #e0e0e0;
+    border-bottom: 1px  solid #e0e0e0;
+    line-height: 60px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+    
+}
+.xm-product-box .nav-bar h2{
+    float: left;
+}
+.xm-product-box .nav-bar .left{
+    float: left;
+}
+.xm-product-box .nav-bar .right{
+    float: right;
+}
+.xm-product-box .nav-bar a{
+    font-size: 14px;
+    color: #616161;
+}
+
+    /* 详情 */
+.mi-detail .container{
+    height: auto;
+    padding: 32px 0 12px;
+}
+.mi-detail .product-box .img-left img{
+    width: 560px;
+    height: 560px;
+}
+.mi-detail .product-box{
+    display: flex;
+    justify-content: space-between;
+}
+/* 右侧 */
+.product-right{
+    width: 620px;
+    margin-left: 20px;
+}
+/* 标题 */
+.product-right h2{
+    font-size: 24px;
+    line-height: 1.5;
+}
+/* 产品描述 */
+.product-right p{
+    font-size: 14px;
+}
+.product-right .sale-desc{
+    color: #b0b0b0;
+    padding-top: 8px;
+}
+.product-right .company-info{
+    color: #ff6700;
+    margin-top: 14px;
+}
+/* 价格 */
+.price-info{
+    padding: 12px 0 10px;
+}
+.price-info .price{
+    font-size: 18px;
+    color: #ff6700;
+    line-height: 1;
+    margin-top: 14px;
+}
+.price-info del{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+/* 赠完即止 */
+.flow-box{
+    padding: 10px 0 5px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.flow-box .flow-tag{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: #ff6700;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 0;
+    text-align: center;
+    line-height: 25px;
+}
+.flow-box .flow-name{
+    font-size: 14px;
+    color: #333;
+    margin-left: 5px;
+}
+/* 地址栏 */
+.address-box{
+    position: relative;
+    margin: 20px 0;
+}
+.product-address{
+    height: auto;
+    width: auto;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    padding: 30px 50px;
+}
+.product-address .icon{
+    position: absolute;
+    left: 20px;
+    top: 35px;
+    font-size: 20px;
+    color: #999;
+}
+
+.address-con span{
+    float: left;
+    margin-right: 14px;
+    color: #333;
+    font-size: 14px;
+    height: 21px;
+    line-height: 21px;
+}
+.address-con a{
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #ff6700;
+}
+.desc span{
+    font-size: 14px;
+    color: #ff6700;
+}
+/* 选择盒子 */
+.buy-box-child{
+    margin-bottom: 30px;
+    height: 135px;
+}
+.title{
+    font-size: 18px;
+    color: #333;
+    height: 27px;
+    line-height: 27px;
+
+}
+.option-box li{
+    float: left;
+    width: 292px;
+    height: 42px;
+    margin: 10px 12px 0 0;
+    padding: 0 5px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    color: #757575;
+
+}
+
+.option-box{
+    margin-right: -12px;
+}
+.option-box .active{
+    border: 1px solid #ff6700;
+    color: #ff6700;
+}
+
+/* 服务盒子 */
+.servic-box .title{
+    margin-bottom: 15px;
+}
+.title a{
+    font-size: 14px;
+    color: #ff6700;
+    float: right;
+}
+.servic-box li{
+    height: 85px;
+    padding: 30px 0;
+    margin-top: -1px;
+    border: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.checkbox i{
+    display: block;
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin: 10px 0 0 30px;
+    text-align: center;
+}
+.checkbox .icon-checkbox em{
+    display: block;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    color: #fff;
+    /* background-color: #ff6700; */
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    margin:  11px auto;
+    overflow: hidden;
+}
+/* 鼠标点击勾选
+.checkbox:focus .icon-checkbox em{
+    height: 14px;
+    border: 1px solid #ff6700;
+} */
+.checkbox img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+    float: left;
+}
+.box{
+    width: 457px;
+    float: right;
+}
+.checkbox h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.checkbox .box em{
+    display:inline-block;
+    color: #fff;
+    font-size: 14px;
+    background-color: #ff6700;
+    padding: 2px 6px;
+    border-radius: 20px;
+}
+.checkbox .box .desc{
+    font-size: 14px;
+    height: 18px;
+    color: #b0b0b0;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.agreement-box{
+    position: relative;
+    height: 25px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+.agreement-box a{
+    color: #ff6700;
+    margin: 0 2px;
+}
+.agreement-box .sep{
+    margin: 0 2px;
+    color: #ff6700;
+}
+.agreement-box i{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #b0b0b0;
+    margin: 5px 5px 0 0;
+}
+
+.agreement-box .price{
+    position: absolute;
+    color: #757575;
+    right: 20px;
+    bottom: 0;
+}
+.servic-box ul{
+    margin-bottom: 30px;
+}
+
+/* 价格汇总 */
+.selected-list{
+    width: auto;
+    height: auto;
+    background-color: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.selected-list ul{
+    height: 30px;
+    font-size: 14px;
+    color: #616161;
+}
+.selected-list li{
+    float: left;
+}
+.selected-list span{
+    float: right;
+}
+.selected-list span del{
+    margin-left: 5px;
+}
+
+.total-price{
+    padding-top: 20px;
+    font-size: 24px;
+    color: #ff6700;
+}
+
+/* 加入购物车 */
+.btn-box{
+    width: auto;
+    height: 54px;
+    margin: 10px 0 20px 0;
+}
+.btn-box a{
+    float: left;
+    display: block;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    background-color: #ff6700;
+    color: #fff;
+    text-align: center;
+}
+.favorite-bnt a{
+    margin-left: 10px;
+    width: 140px;
+    background-color: #b0b0b0;
+
+}
+/* 售后信息 */
+.after-sale-info .support{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 15px 10px 0;
+    
+}
+.after-sale-info em{
+    margin-left: 2px;
+    vertical-align: middle;
+}
+.after-sale-info .icon{
+    vertical-align: middle;
+    font-size: 18px;
+    color: #b0b0b0;
+}
+
+/* 价格说明 */
+.detail-box{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+}
+.detail-box h3{
+    padding: 22px 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+
+}
